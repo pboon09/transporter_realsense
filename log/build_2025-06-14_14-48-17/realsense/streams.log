@@ -1,0 +1,86 @@
+[0.008s] Invoking command in '/home/b/transporter_realsense/build/realsense': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/b/transporter_realsense/src/realsense -DCMAKE_INSTALL_PREFIX=/home/b/transporter_realsense/install/realsense
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.125s] -- The CXX compiler identification is GNU 11.4.0
+[0.132s] -- Detecting C compiler ABI info
+[0.201s] -- Detecting C compiler ABI info - done
+[0.207s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.207s] -- Detecting C compile features
+[0.207s] -- Detecting C compile features - done
+[0.209s] -- Detecting CXX compiler ABI info
+[0.279s] -- Detecting CXX compiler ABI info - done
+[0.286s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.286s] -- Detecting CXX compile features
+[0.287s] -- Detecting CXX compile features - done
+[0.289s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.400s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.462s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.488s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.491s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.496s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.504s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.513s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.542s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.543s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.635s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.655s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.684s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.690s] -- Looking for pthread.h
+[0.752s] -- Looking for pthread.h - found
+[0.752s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.812s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.813s] -- Found Threads: TRUE  
+[0.858s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.971s] -- Configuring done
+[0.977s] -- Generating done
+[0.979s] -- Build files have been written to: /home/b/transporter_realsense/build/realsense
+[0.986s] Invoked command in '/home/b/transporter_realsense/build/realsense' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/b/transporter_realsense/src/realsense -DCMAKE_INSTALL_PREFIX=/home/b/transporter_realsense/install/realsense
+[0.988s] Invoking command in '/home/b/transporter_realsense/build/realsense': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/b/transporter_realsense/build/realsense -- -j12 -l12
+[1.039s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_test.dir/src/cpp_node.cpp.o[0m
+[1.046s] [ 50%] Built target ament_cmake_python_copy_realsense
+[1.229s] running egg_info
+[1.230s] creating realsense.egg-info
+[1.230s] writing realsense.egg-info/PKG-INFO
+[1.230s] writing dependency_links to realsense.egg-info/dependency_links.txt
+[1.230s] writing top-level names to realsense.egg-info/top_level.txt
+[1.230s] writing manifest file 'realsense.egg-info/SOURCES.txt'
+[1.232s] reading manifest file 'realsense.egg-info/SOURCES.txt'
+[1.233s] writing manifest file 'realsense.egg-info/SOURCES.txt'
+[1.245s] [100%] [32m[1mLinking CXX executable cpp_node_test[0m
+[1.255s] [100%] Built target ament_cmake_python_build_realsense_egg
+[1.314s] [100%] Built target cpp_node_test
+[1.323s] Invoked command in '/home/b/transporter_realsense/build/realsense' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/b/transporter_realsense/build/realsense -- -j12 -l12
+[1.332s] Invoking command in '/home/b/transporter_realsense/build/realsense': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/b/transporter_realsense/build/realsense
+[1.338s] -- Install configuration: ""
+[1.338s] -- Installing: /home/b/transporter_realsense/install/realsense/share/realsense/environment/pythonpath.sh
+[1.338s] -- Installing: /home/b/transporter_realsense/install/realsense/share/realsense/environment/pythonpath.dsv
+[1.339s] -- Installing: /home/b/transporter_realsense/install/realsense/local/lib/python3.10/dist-packages/realsense-0.0.0-py3.10.egg-info
+[1.339s] -- Installing: /home/b/transporter_realsense/install/realsense/local/lib/python3.10/dist-packages/realsense-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.339s] -- Installing: /home/b/transporter_realsense/install/realsense/local/lib/python3.10/dist-packages/realsense-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.339s] -- Installing: /home/b/transporter_realsense/install/realsense/local/lib/python3.10/dist-packages/realsense-0.0.0-py3.10.egg-info/top_level.txt
+[1.339s] -- Installing: /home/b/transporter_realsense/install/realsense/local/lib/python3.10/dist-packages/realsense-0.0.0-py3.10.egg-info/PKG-INFO
+[1.339s] -- Installing: /home/b/transporter_realsense/install/realsense/local/lib/python3.10/dist-packages/realsense
+[1.339s] -- Installing: /home/b/transporter_realsense/install/realsense/local/lib/python3.10/dist-packages/realsense/dummy_module.py
+[1.339s] -- Installing: /home/b/transporter_realsense/install/realsense/local/lib/python3.10/dist-packages/realsense/__init__.py
+[1.365s] Listing '/home/b/transporter_realsense/install/realsense/local/lib/python3.10/dist-packages/realsense'...
+[1.365s] Compiling '/home/b/transporter_realsense/install/realsense/local/lib/python3.10/dist-packages/realsense/__init__.py'...
+[1.365s] Compiling '/home/b/transporter_realsense/install/realsense/local/lib/python3.10/dist-packages/realsense/dummy_module.py'...
+[1.368s] -- Installing: /home/b/transporter_realsense/install/realsense/lib/realsense/dummy_script.py
+[1.368s] -- Installing: /home/b/transporter_realsense/install/realsense/lib/realsense/cpp_node_test
+[1.368s] -- Set runtime path of "/home/b/transporter_realsense/install/realsense/lib/realsense/cpp_node_test" to ""
+[1.368s] -- Up-to-date: /home/b/transporter_realsense/install/realsense/share/realsense
+[1.369s] -- Installing: /home/b/transporter_realsense/install/realsense/share/ament_index/resource_index/package_run_dependencies/realsense
+[1.369s] -- Installing: /home/b/transporter_realsense/install/realsense/share/ament_index/resource_index/parent_prefix_path/realsense
+[1.369s] -- Installing: /home/b/transporter_realsense/install/realsense/share/realsense/environment/ament_prefix_path.sh
+[1.369s] -- Installing: /home/b/transporter_realsense/install/realsense/share/realsense/environment/ament_prefix_path.dsv
+[1.369s] -- Installing: /home/b/transporter_realsense/install/realsense/share/realsense/environment/path.sh
+[1.369s] -- Installing: /home/b/transporter_realsense/install/realsense/share/realsense/environment/path.dsv
+[1.369s] -- Installing: /home/b/transporter_realsense/install/realsense/share/realsense/local_setup.bash
+[1.369s] -- Installing: /home/b/transporter_realsense/install/realsense/share/realsense/local_setup.sh
+[1.369s] -- Installing: /home/b/transporter_realsense/install/realsense/share/realsense/local_setup.zsh
+[1.369s] -- Installing: /home/b/transporter_realsense/install/realsense/share/realsense/local_setup.dsv
+[1.369s] -- Installing: /home/b/transporter_realsense/install/realsense/share/realsense/package.dsv
+[1.369s] -- Installing: /home/b/transporter_realsense/install/realsense/share/ament_index/resource_index/packages/realsense
+[1.370s] -- Installing: /home/b/transporter_realsense/install/realsense/share/realsense/cmake/realsenseConfig.cmake
+[1.370s] -- Installing: /home/b/transporter_realsense/install/realsense/share/realsense/cmake/realsenseConfig-version.cmake
+[1.370s] -- Installing: /home/b/transporter_realsense/install/realsense/share/realsense/package.xml
+[1.372s] Invoked command in '/home/b/transporter_realsense/build/realsense' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/b/transporter_realsense/build/realsense

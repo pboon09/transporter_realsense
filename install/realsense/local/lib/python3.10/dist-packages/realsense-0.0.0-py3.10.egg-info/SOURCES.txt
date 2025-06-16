@@ -1,0 +1,7 @@
+setup.py
+realsense/__init__.py
+realsense/dummy_module.py
+realsense.egg-info/PKG-INFO
+realsense.egg-info/SOURCES.txt
+realsense.egg-info/dependency_links.txt
+realsense.egg-info/top_level.txt
