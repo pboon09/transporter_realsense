@@ -1,6 +1,0 @@
-Invoking command in '/home/b/transporter_realsense/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/b/transporter_realsense/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/b/transporter_realsense/install/interfaces
-Invoked command in '/home/b/transporter_realsense/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/b/transporter_realsense/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/b/transporter_realsense/install/interfaces
-Invoking command in '/home/b/transporter_realsense/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/b/transporter_realsense/build/interfaces -- -j12 -l12
-Invoked command in '/home/b/transporter_realsense/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/b/transporter_realsense/build/interfaces -- -j12 -l12
-Invoking command in '/home/b/transporter_realsense/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/b/transporter_realsense/build/interfaces
-Invoked command in '/home/b/transporter_realsense/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/b/transporter_realsense/build/interfaces

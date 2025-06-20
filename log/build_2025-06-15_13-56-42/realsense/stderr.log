@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:97 (file):
-  file INSTALL cannot find
-  "/home/b/transporter_realsense/src/realsense/launch": No such file or
-  directory.
-
-[0m

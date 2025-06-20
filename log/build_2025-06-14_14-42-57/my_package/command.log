@@ -1,6 +1,0 @@
-Invoking command in '/home/b/transporter_realsense/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/b/transporter_realsense/src/my_package -DCMAKE_INSTALL_PREFIX=/home/b/transporter_realsense/install/my_package
-Invoked command in '/home/b/transporter_realsense/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/b/transporter_realsense/src/my_package -DCMAKE_INSTALL_PREFIX=/home/b/transporter_realsense/install/my_package
-Invoking command in '/home/b/transporter_realsense/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/b/transporter_realsense/build/my_package -- -j12 -l12
-Invoked command in '/home/b/transporter_realsense/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/b/transporter_realsense/build/my_package -- -j12 -l12
-Invoking command in '/home/b/transporter_realsense/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/b/transporter_realsense/build/my_package
-Invoked command in '/home/b/transporter_realsense/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/b/transporter_realsense/build/my_package
