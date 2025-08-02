@@ -78,8 +78,8 @@ realsense-viewer --version
 
 ### Create workspace
 ```bash
-mkdir -p ~/ros2_ws/src
-cd ~/ros2_ws/src
+mkdir -p ~/rs_ws/src
+cd ~/rs_ws/src
 ```
 
 ### Clone matching wrapper version
@@ -89,7 +89,7 @@ git clone -b 4.51.1 https://github.com/IntelRealSense/realsense-ros.git
 
 ### Install dependencies
 ```bash
-cd ~/ros2_ws
+cd ~/rs_ws
 rosdep install -y --from-paths src --ignore-src
 ```
 
@@ -100,7 +100,7 @@ colcon build --symlink-install --cmake-args -DFORCE_LIBUVC=ON
 
 ### Source workspace (add to .bashrc)
 ```bash
-echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
+echo "source ~/rs_ws/install/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
