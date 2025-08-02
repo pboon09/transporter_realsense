@@ -26,7 +26,7 @@ sudo apt-get install librealsense2-dkms
 sudo apt-get install librealsense2-utils
 ```
 
-## 2. Install librealsense v2.51.1 (Recommended for T265)
+## 2. Install librealsense v2.53.1 (Recommended for T265)
 
 ### Install dependencies
 ```bash
@@ -40,7 +40,7 @@ sudo apt update && sudo apt install -y \
 ```bash
 git clone https://github.com/IntelRealSense/librealsense.git ~/librealsense
 cd ~/librealsense
-git checkout v2.51.1
+git checkout v2.53.1
 ```
 
 ### Build with T265 support
